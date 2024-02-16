@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.col-md-6{
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+
+
+
+
