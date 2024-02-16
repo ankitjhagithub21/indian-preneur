@@ -34,6 +34,7 @@ const MagazineDetails = () => {
           <div className="col-md-4 text-center">
             <img src={magazine.image} alt="magazine" className='img-fluid' />
           </div>
+          
           <div className="col-md-8 d-flex flex-column align-items-start justify-content-center">
             <h1>Title</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi voluptatibus perspiciatis quos reiciendis mollitia inventore, temporibus a labore atque earum harum quis dignissimos sunt, fugit repellat. Fuga recusandae commodi unde.</p>

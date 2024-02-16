@@ -11,6 +11,7 @@ import Header from './components/Header';
 import "./App.css"
 import MagazineDetails from './pages/MagazineDetails';
 import BlogDetails from './pages/BlogDetails';
+import About from './pages/About';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
     <Route path='/blogs/:id' element={<BlogDetails/>}/>
     <Route path='/magazines' element={<Emagazines/>}/>
     <Route path='/magazines/:id' element={<MagazineDetails/>}/>
+    <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
    </Routes>
    <Footer/>

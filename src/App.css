@@ -19,6 +19,10 @@ nav a:hover{
     color: blue;
     text-decoration: underline;
 }
+.active{
+    color: blue;
+    text-decoration: underline;
+}
 
 
 .col-md-6{
